@@ -29,7 +29,7 @@ apt-get dist-upgrade -y -q
 apt-get -y -q autoclean
 apt-get -y -q autoremove
 
-apt-get install --force-yes -y -q build-essential devscripts curl sudo net-tools git software-properties-common python-software-properties libssl-dev wget ssl-cert bison openssl libreadline6 libreadline6-dev zlib1g zlib1g-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev libreadline6 libreadline6-dev
+apt-get install --force-yes -y -q build-essential devscripts curl sudo net-tools git software-properties-common python-software-properties libssl-dev wget ssl-cert bison openssl libreadline6 libreadline6-dev zlib1g zlib1g-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev libreadline6 libreadline6-dev cron logrotate
 
 
 ## clean up so we use less space
