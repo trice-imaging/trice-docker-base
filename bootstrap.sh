@@ -1,19 +1,19 @@
 #!/bin/bash
 
-echo 'deb http://eu-west-1.ec2.archive.ubuntu.com/ubuntu/ saucy main' | tee /etc/apt/sources.list
-echo 'deb-src http://eu-west-1.ec2.archive.ubuntu.com/ubuntu/ saucy main' | tee -a /etc/apt/sources.list
-echo 'deb http://eu-west-1.ec2.archive.ubuntu.com/ubuntu/ saucy-updates main' | tee -a /etc/apt/sources.list
-echo 'deb-src http://eu-west-1.ec2.archive.ubuntu.com/ubuntu/ saucy-updates main' | tee -a /etc/apt/sources.list
-echo 'deb http://eu-west-1.ec2.archive.ubuntu.com/ubuntu/ saucy universe' | tee -a /etc/apt/sources.list
-echo 'deb-src http://eu-west-1.ec2.archive.ubuntu.com/ubuntu/ saucy universe' | tee -a /etc/apt/sources.list
-echo 'deb http://eu-west-1.ec2.archive.ubuntu.com/ubuntu/ saucy-updates universe' | tee -a /etc/apt/sources.list
-echo 'deb-src http://eu-west-1.ec2.archive.ubuntu.com/ubuntu/ saucy-updates universe' | tee -a /etc/apt/sources.list
-echo 'deb http://eu-west-1.ec2.archive.ubuntu.com/ubuntu/ saucy multiverse' | tee -a /etc/apt/sources.list
-echo 'deb-src http://eu-west-1.ec2.archive.ubuntu.com/ubuntu/ saucy multiverse' | tee -a /etc/apt/sources.list
-echo 'deb http://eu-west-1.ec2.archive.ubuntu.com/ubuntu/ saucy-updates multiverse' | tee -a /etc/apt/sources.list
-echo 'deb-src http://eu-west-1.ec2.archive.ubuntu.com/ubuntu/ saucy-updates multiverse' | tee -a /etc/apt/sources.list
-echo 'deb http://eu-west-1.ec2.archive.ubuntu.com/ubuntu/ saucy-backports main restricted universe multiverse' | tee -a /etc/apt/sources.list
-echo 'deb-src http://eu-west-1.ec2.archive.ubuntu.com/ubuntu/ saucy-backports main restricted universe multiverse' | tee -a /etc/apt/sources.list
+echo 'deb http://archive.ubuntu.com/ubuntu/ saucy main' | tee /etc/apt/sources.list
+echo 'deb-src http://archive.ubuntu.com/ubuntu/ saucy main' | tee -a /etc/apt/sources.list
+echo 'deb http://archive.ubuntu.com/ubuntu/ saucy-updates main' | tee -a /etc/apt/sources.list
+echo 'deb-src http://archive.ubuntu.com/ubuntu/ saucy-updates main' | tee -a /etc/apt/sources.list
+echo 'deb http://archive.ubuntu.com/ubuntu/ saucy universe' | tee -a /etc/apt/sources.list
+echo 'deb-src http://archive.ubuntu.com/ubuntu/ saucy universe' | tee -a /etc/apt/sources.list
+echo 'deb http://archive.ubuntu.com/ubuntu/ saucy-updates universe' | tee -a /etc/apt/sources.list
+echo 'deb-src http://archive.ubuntu.com/ubuntu/ saucy-updates universe' | tee -a /etc/apt/sources.list
+echo 'deb http://archive.ubuntu.com/ubuntu/ saucy multiverse' | tee -a /etc/apt/sources.list
+echo 'deb-src http://archive.ubuntu.com/ubuntu/ saucy multiverse' | tee -a /etc/apt/sources.list
+echo 'deb http://archive.ubuntu.com/ubuntu/ saucy-updates multiverse' | tee -a /etc/apt/sources.list
+echo 'deb-src http://archive.ubuntu.com/ubuntu/ saucy-updates multiverse' | tee -a /etc/apt/sources.list
+echo 'deb http://archive.ubuntu.com/ubuntu/ saucy-backports main restricted universe multiverse' | tee -a /etc/apt/sources.list
+echo 'deb-src http://archive.ubuntu.com/ubuntu/ saucy-backports main restricted universe multiverse' | tee -a /etc/apt/sources.list
 echo 'deb http://security.ubuntu.com/ubuntu saucy-security main' | tee -a /etc/apt/sources.list
 echo 'deb-src http://security.ubuntu.com/ubuntu saucy-security main' | tee -a /etc/apt/sources.list
 echo 'deb http://security.ubuntu.com/ubuntu saucy-security universe' | tee -a /etc/apt/sources.list
